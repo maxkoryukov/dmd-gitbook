@@ -1,30 +1,36 @@
-[![view on npm](http://img.shields.io/npm/v/dmd-plugin-example.svg)](https://www.npmjs.org/package/dmd-plugin-example)
-[![npm module downloads per month](http://img.shields.io/npm/dm/dmd-plugin-example.svg)](https://www.npmjs.org/package/dmd-plugin-example)
-[![Dependency Status](https://david-dm.org/jsdoc2md/dmd-plugin-example.svg)](https://david-dm.org/jsdoc2md/dmd-plugin-example)
+# dmd-gitbook
 
-# dmd-plugin-example
+[![Tips](http://img.shields.io/gittip/maxkoryukov.png)](https://www.gittip.com/maxkoryukov/)
 
-This is a simple example demonstrating how to construct a dmd plugin. It adds a generated date to the bottom of your API docs.
+[![Build Status](https://travis-ci.org/maxkoryukov/dmd-gitbook.svg?branch=master)](https://travis-ci.org/maxkoryukov/dmd-gitbook)
+<!--
+[![Build status](https://ci.appveyor.com/api/projects/status/xxxxx?svg=true)](https://ci.appveyor.com/project/maxkoryukov/dmd-gitbook)
+-->
 
-To make your own plug-in, clone this project, edit and publish to npm. 
+[![npm version](https://img.shields.io/npm/v/dmd-gitbook.svg)](https://www.npmjs.com/package/dmd-gitbook)
+[![npm downloads](https://img.shields.io/npm/dm/dmd-gitbook.svg)](https://www.npmjs.com/package/dmd-gitbook)
 
-To use a plug-in in your project, first install it as a devDependency: 
+[![codebeat badge](https://codebeat.co/badges/79f229c5-27f7-4ab9-8503-2d6fc95052f9)](https://codebeat.co/projects/github-com-maxkoryukov-dmd-gitbook)
+[![bitHound Overall Score](https://www.bithound.io/github/maxkoryukov/dmd-gitbook/badges/score.svg)](https://www.bithound.io/github/maxkoryukov/dmd-gitbook)
+[![bitHound Dependencies](https://www.bithound.io/github/maxkoryukov/dmd-gitbook/badges/dependencies.svg)](https://www.bithound.io/github/maxkoryukov/dmd-gitbook/master/dependencies/npm)
+[![codecov](https://codecov.io/gh/maxkoryukov/dmd-gitbook/branch/master/graph/badge.svg)](https://codecov.io/gh/maxkoryukov/dmd-gitbook)
+<!--
+[![NSP Status](https://nodesecurity.io/orgs/maxkoryukov/projects/xxxxxx/badge)](https://nodesecurity.io/orgs/maxkoryukov/projects/xxxxxx)
+ -->
+
+Plugin for jsdoc2md to produce markdown suitable for gitbook.
+
+To use a plug-in in your project, first install it as a devDependency:
+
 ```
-$ npm install dmd-plugin-example --save-dev
+$ npm install dmd-gitbook --save-dev
 ```
 
 Then pass the plug-in name to `jsdoc2md` or `dmd`:
+
 ```
-$ jsdoc2md --plugin dmd-plugin-example lib/*.js 
+$ jsdoc2md --plugin dmd-gitbook lib/*.js
 ```
-
-# project-name
-
-Project description
-
-## Contributing
-
-You could take part in the development process, just follow this [guideline](CONTRIBUTING.md).
 
 ## License
 
