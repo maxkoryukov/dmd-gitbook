@@ -2,7 +2,7 @@
   "name": "dmd-gitbook",
   "version": "0.0.1",
   "description": "Plugin for jsdoc2md to produce markdown suitable for gitbook.",
-  "main": "./lib/dmd-gitbook.js",
+  "main": "./lib/",
   "scripts": {
     "start": "node ./server/auth",
     "test": "`npm bin`/mocha",

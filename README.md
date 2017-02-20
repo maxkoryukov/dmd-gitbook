@@ -10,7 +10,7 @@
 [![npm version](https://img.shields.io/npm/v/dmd-gitbook.svg)](https://www.npmjs.com/package/dmd-gitbook)
 [![npm downloads](https://img.shields.io/npm/dm/dmd-gitbook.svg)](https://www.npmjs.com/package/dmd-gitbook)
 
-[![codebeat badge](https://codebeat.co/badges/79f229c5-27f7-4ab9-8503-2d6fc95052f9)](https://codebeat.co/projects/github-com-maxkoryukov-dmd-gitbook)
+[![codebeat badge](https://codebeat.co/badges/fca005f3-4e1e-4f9a-978e-bf51aa941259)](https://codebeat.co/projects/github-com-maxkoryukov-dmd-gitbook)
 [![bitHound Overall Score](https://www.bithound.io/github/maxkoryukov/dmd-gitbook/badges/score.svg)](https://www.bithound.io/github/maxkoryukov/dmd-gitbook)
 [![bitHound Dependencies](https://www.bithound.io/github/maxkoryukov/dmd-gitbook/badges/dependencies.svg)](https://www.bithound.io/github/maxkoryukov/dmd-gitbook/master/dependencies/npm)
 [![codecov](https://codecov.io/gh/maxkoryukov/dmd-gitbook/branch/master/graph/badge.svg)](https://codecov.io/gh/maxkoryukov/dmd-gitbook)
